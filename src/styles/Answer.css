@@ -1,0 +1,18 @@
+h1 {
+  background-color: hsl(0, 0%, 99%);
+  border: 2px solid #3a3a3a;
+  border-radius: 30px;
+  box-shadow: #3a3a3a 4px 4px 0 0;
+  margin: 5px;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 455px;
+  height: 45px;
+}
