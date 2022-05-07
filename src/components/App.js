@@ -72,7 +72,6 @@ export default function App() {
     if (expression && actual) {
       let response = postfixCalculator(infixToPostfix(expression + actual))
       clear()
-      console.log(response)
       if (response > 999999999 || response < -999999999) {
         setAnswer('ERROR')
         setExpression('')
