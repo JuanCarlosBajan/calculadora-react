@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier", "react"],
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "semi": false
+      }
+    ],
+    "no-plusplus": "off",
+    "vars-on-top": "off",
+    "semi": ["error", "never"],
+    "spaced-comment": "off",
+    "prefer-template": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  }
+}
