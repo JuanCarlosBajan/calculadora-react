@@ -98,7 +98,7 @@ export default function App() {
   return (
     <div className="main">
       <h1>ANSWER: {answer}</h1>
-      <h1>VALUE: {actual}</h1>
+      <h1 id="value">VALUE: {actual}</h1>
       <div>
         <button onClick={() => clear()}>Clear</button>
         <button onClick={() => sign()}>+/-</button>
