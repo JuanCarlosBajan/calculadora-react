@@ -1,0 +1,7 @@
+{
+    "moduleNameMapper":{
+         "\\.(css|less|sass|scss)$": "<rootDir>/CSSStub.js"
+    },
+    "testEnvironment": "jsdom",
+    "globals" : {"IS_REACT_ACT_ENVIRONMENT": true}
+}
