@@ -6,6 +6,7 @@ Calculadora en REACT
 **2.** WEBPACK <br/>
 **3.** BABEL <br/>
 **4.** ESLINT/AIRBNB/PRETTIER <br/>
+**5.** JEST <br/>
 
 ## Aclaraciones
 
